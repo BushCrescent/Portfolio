@@ -1,0 +1,39 @@
+html {
+    display: flex;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: #424242;
+    justify-content: space-between;
+}
+
+.header .title-name {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px 50px;
+    color: #424242;
+}
+
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 50px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.header ul li {
+    color: lightblue;
+    border-bottom: 4px solid lightblue;
+    margin-left: 15px;
+}

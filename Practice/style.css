@@ -1,0 +1,29 @@
+body {
+  background-image: url('https://img.tineye.com/result/b2c67a0ad4898d9fb163635222174298b6c65803adc9486e7a56eb3140eec326?size=160');
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  img {
+    border: 2px solid rgb(0, 0, 200);
+  }
